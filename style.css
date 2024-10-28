@@ -1,0 +1,899 @@
+
+.logo{
+    width: 90px;
+    height: 90px;
+   
+}
+@media (max-width:1024px){
+    .logo{
+        width: 90px;
+        height: 90px;
+       
+    }
+
+}
+@media (max-width:767px){
+    .logo{
+        width: 75px;
+        height: 75px;
+       
+    }
+
+}
+@media (max-width:320px){
+    .logo{
+        width: 50px;
+        height: 50px;
+       
+    }
+
+}
+
+
+
+
+nav {
+    background: rgb(247, 154, 131);
+    border-bottom: 2px solid white;
+
+}
+.bi{
+color: white;
+font-size: 25px;
+
+}
+    /* .navbar a{
+        
+        font-size: 20px;
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 35px; 
+    
+
+    }   */
+.navbar a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.bi:hover{
+    cursor: pointer;
+}
+.nav-bar-para{
+    margin-right: 50px;
+}
+
+@media screen and (max-width:767px) {
+   .color-change{
+    background-color: green;
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+ 
+   
+    
+   
+   }
+    
+}
+.pic1{
+    width: 100%;
+    height : 700px;
+    background-color: rgb(247, 154, 131);
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-image: url(image/first.webp);
+    background-size: cover;
+    background-position: center;
+    
+}
+.image-first img{
+    height: 100%;
+    width: 100%;
+}
+ .firstimg-head{
+    position: absolute;
+    top: 280px;
+    font-size: 60px;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    left: 150px;
+ }
+ .first-button{
+    background-color: transparent;
+    border-radius: 20px;
+    position: absolute;
+    top: 64%;
+    left: 11%;
+    color: white;
+    border: 2px solid white;
+    width: 164px;
+    height: 47px;
+ }
+ @media (max-width:1024px){
+   .pic1{
+    background-image: url(image/first.webp);
+    background-position: center;
+    background-size: cover;
+   }
+    
+    
+
+    .firstimg-head{
+        font-size: 53px;
+        position: absolute;
+        left: 8%;
+        top: 46%;
+    }
+    .first-button{
+        background-color: transparent;
+    border-radius: 20px;
+    position: absolute;
+    top: 65%;
+    left: 8%;
+    color: white;
+    border: 2px solid white;
+    width: 164px;
+    height: 44px;
+    
+     }
+     
+
+    
+ }
+ 
+ 
+
+ 
+ @media(max-width:768px) {
+    .firstimg-head{
+        font-size: 40px;
+        position: absolute;
+        left: 23%;
+        top: 68%;
+    }
+    .first-button{
+        background-color: transparent;
+        border-radius: 20px;
+        position: absolute;
+        top: 65%;
+        left: 10%;
+        color: white;
+        border: 2px solid white;
+        width: 179px;
+        height: 50px;
+    
+     }
+
+    
+ }
+
+ 
+ 
+@media (max-width:768px){
+    .pic1{
+        background-image: url(image/media\ small.webp);
+        background-size: cover;
+        background-position: center;
+        height: 800px;
+}
+.firstimg-head{
+    font-size: 62px;
+    position: absolute;
+    left: 32%;
+    top: 70%;
+    color: white;
+}
+
+.first-button{
+    background-color: transparent;
+    border-radius: 20px;
+    position: absolute;
+    top: 92%;
+    left: 40%;
+    color: white;
+    border: 2px solid white;
+    width: 140px;
+    height: 40px;
+
+ }
+
+}
+@media (max-width:495px){
+    .firstimg-head{
+        font-size: 57px;
+        position: absolute;
+        left: 17%;
+        top: 70%;
+        color: white;
+    }
+    
+    .first-button{
+        border-radius: 20px;
+        position: absolute;
+        top: 88%;
+        left: 31%;
+        color: white;
+        border: 2px solid white;
+        width: 140px;
+        height: 40px;
+    
+     }
+
+
+}
+@media (max-width:360px){
+    .firstimg-head{
+        font-size: 50px;
+        position: absolute;
+        left: 17%;
+        top: 70%;
+        color: white;
+    }
+    
+    .first-button{
+        border-radius: 20px;
+        position: absolute;
+        top: 88%;
+        left: 31%;
+        color: white;
+        border: 2px solid white;
+        width: 140px;
+        height: 40px;
+    
+     }
+
+
+}
+
+    
+    
+
+
+   
+   @media (max-width:320px){
+    .pic1{
+        background-image: url(image/media\ small.webp);
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+}
+
+   }
+   @media(max-width:320px) {
+    .firstimg-head{
+        font-size: 35px;
+        position: absolute;
+        left: 25%;
+        top: 70%;
+        color: white;
+    }
+    .first-button{
+        background-color: transparent;
+        border-radius: 20px;
+        position: absolute;
+        top: 90%;
+        left: 36%;
+        color: white;
+        border: 2px solid white;
+        width: 120px;
+        height: 40px;
+    
+     }
+
+    
+ }
+ .pic2{
+    width: 100%;
+    height : 700px;
+    background-color: rgb(247, 154, 131);
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-image: url(image/second.webp);
+    background-size: cover;
+    background-position: center;
+    
+}
+@media (max-width:768px){
+    .pic2{
+        background-image: url(image/second.webp);
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+}
+
+
+}
+.green{
+    background-color: rgba(10, 91, 43, 0.8);
+    width: 616px;
+    height: 225px;
+    border-radius: 124px;
+    position: absolute;
+    top: 215px;
+    left: 409px;
+    text-align: center;
+    font-size: 33px;
+    color: white;
+    padding-top: 30px;
+   
+    
+} 
+.second-button{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+}
+@media (max-width:1024px){
+    .pic2{
+        background-image: url(image/second.webp);
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+}
+.green{
+    background-color: rgba(10, 91, 43, 0.8);
+    width: 581px;
+    height: 198px;
+    border-radius: 114px;
+    position: absolute;
+    top: 238px;
+    left: 232px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding-top: 20px;
+   
+    
+} 
+    
+    
+
+
+}
+@media (max-width:825px){
+    .green{
+        background-color: rgba(10, 91, 43, 0.8);
+        width: 645px;
+        height: 177px;
+        border-radius: 81px;
+        position: absolute;
+        top: 238px;
+        left: 53px;
+        text-align: center;
+        font-size: 24px;
+        color: white;
+        padding-top: 20px;
+        background-position: center;
+    }
+
+
+}
+@media (max-width:768px){
+    .pic2{
+        background-image: url(image/second.webp);
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+}
+.green{
+    background-color: rgba(10, 91, 43, 0.8);
+    width: 645px;
+    height: 177px;
+    border-radius: 81px;
+    position: absolute;
+    top: 238px;
+    left: 53px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding-top: 20px;
+    background-position: center;
+    
+} 
+.green button{
+    background-color: transparent;
+}
+    
+    
+
+
+}
+@media(max-width:700px){
+    .pic2{
+        background-image: url(image/second.webp);
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+}
+.green{
+    background-color: rgba(10, 91, 43, 0.8);
+        width: 388px;
+        height: 187px;
+        border-radius: 81px;
+        position: absolute;
+        top: 165px;
+        left: 149px;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+   
+    
+} 
+    
+    
+
+
+}
+@media (max-width:588px){
+   
+.green{
+    background-color: rgba(10, 91, 43, 0.8);
+    width: 417px;
+    height: 187px;
+    border-radius: 81px;
+    position: absolute;
+    top: 165px;
+    left: 63px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+   
+    
+} 
+    
+    
+
+
+}
+@media (max-width:495px){
+    .green{
+        background-color: rgba(10, 91, 43, 0.8);
+        width: 401px;
+        height: 177px;
+        border-radius: 81px;
+        position: absolute;
+        top: 150px;
+        left: 36px;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+       
+        
+    } 
+
+}
+
+@media (max-width:437px){
+    .green{
+        background-color: rgba(10, 91, 43, 0.8);
+        width: 350px;
+        height: 177px;
+        border-radius: 81px;
+        position: absolute;
+        top: 150px;
+        left: 36px;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        overflow: hidden;
+       
+        
+    } 
+
+}
+@media (max-width:396px){
+    .green{
+        background-color: rgba(10, 91, 43, 0.8);
+        width: 337px;
+        height: 151px;
+        border-radius: 81px;
+        position: absolute;
+        top: 152px;
+        left: 24px;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+       
+        
+    } 
+
+}
+@media (max-width:360px){
+    .green{
+        background-color: rgba(10, 91, 43, 0.8);
+        width: 279px;
+        height: 151px;
+        border-radius: 81px;
+        position: absolute;
+        top: 152px;
+        left: 24px;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+       
+        
+    } 
+
+}
+
+@media (max-width:320px){
+    .pic2{
+        background-image: url(image/second.webp);
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+}
+.green{
+    background-color: rgba(10, 91, 43, 0.8);
+        width: 243px;
+        height: 187px;
+        border-radius: 81px;
+        position: absolute;
+        top: 165px;
+        left: 49px;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+   
+    
+} 
+    
+    
+
+
+}
+.pic3{
+    width: 100%;
+    height : 700px;
+    background-color: rgb(247, 154, 131);
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-image: url(image/third.webp);
+    background-size: cover;
+    background-position: center;
+}
+.green-second{
+    
+    background-color: rgba(10, 91, 43, 0.8);
+    width: 500px;
+    height: 192px;
+    border-radius: 81px;
+    position: absolute;
+    top: 325px;
+    left: 473px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding-top: 20px;
+        
+    
+   
+} 
+.green-second button{
+    background-color: transparent;
+    border-radius: 20px;
+    position: absolute;
+    top: 70%;
+    left: 34%;
+    color: white;
+    border: 2px solid white;
+    width: 177px;
+    height: 45px;
+    background-color: transparent;
+}
+@media (max-width:1024px){
+    .green-second{
+    
+        background-color: rgba(10, 91, 43, 0.8);
+        width: 530px;
+        height: 192px;
+        border-radius: 81px;
+        position: absolute;
+        top: 325px;
+        left: 249px;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        padding-top: 20px;
+        
+       
+    } 
+    .green-second button{
+        width: 150px;
+        font-size: 20px;
+        height: 40px;
+        background-color: transparent;
+    }
+
+} 
+@media (max-width:825px){
+    .green-second{
+        background-color: rgba(10, 91, 43, 0.8);
+        width: 530px;
+        height: 192px;
+        border-radius: 81px;
+        position: absolute;
+        top: 325px;
+        left: 115px;
+        text-align: center;
+        font-size: 24px;
+        color: white;
+        padding-top: 20px;
+        
+       
+    } 
+    .green-second button{
+        width: 150px;
+        font-size: 20px;
+        height: 40px;
+        background-color: transparent;
+        position: absolute;
+        left: 194px;
+    }
+
+}
+@media (max-width:768px){
+    .green-second{
+        background-color: rgba(10, 91, 43, 0.8);
+        width: 645px;
+        height: 177px;
+        border-radius: 81px;
+        position: absolute;
+        top: 238px;
+        left: 53px;
+        text-align: center;
+        font-size: 24px;
+        color: white;
+        padding-top: 20px;
+        background-position: center;
+    } 
+    .green-second button {
+        width: 148px;
+        height: 36px;
+        font-size: 17px;
+        position: absolute;
+        top: 133px;
+        left: 242px;
+        background-color: transparent;
+    }
+
+} 
+@media (max-width:700px){
+    .green-second{
+        background-color: rgba(10, 91, 43, 0.8);
+        width: 470px;
+        height: 171px;
+        border-radius: 81px;
+        position: absolute;
+        top: 152px;
+        left: 118px;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+    } 
+    .green-second button {
+        width: 128px;
+        height: 36px;
+        font-size: 17px;
+        position: absolute;
+        top: 133px;
+        left: 175px;
+        background-color: transparent;
+    }
+
+
+}
+@media (max-width:588px){
+    .green-second{
+        background-color: rgba(10, 91, 43, 0.8);
+        width: 441px;
+        height: 169px;
+        border-radius: 81px;
+        position: absolute;
+        top: 152px;
+        left: 52px;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+    } 
+    .green-second button {
+        width: 128px;
+        height: 36px;
+        font-size: 17px;
+        position: absolute;
+        top: 117px;
+        left: 163px;
+        background-color: transparent;
+    }
+
+
+}
+@media (max-width:495px){
+    .green-second{
+        background-color: rgba(10, 91, 43, 0.8);
+        width: 412px;
+        height: 163px;
+        border-radius: 81px;
+        position: absolute;
+        top: 152px;
+        left: 24px;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+    } 
+    .green-second button {
+        width: 128px;
+        height: 36px;
+        font-size: 17px;
+        position: absolute;
+        top: 104px;
+        left: 154px;
+        background-color: transparent;
+    }
+
+
+}
+@media (max-width:437px){
+    .pic3{
+        background-image: url(image/third.webp);
+        background-size: cover;
+        background-position: center;
+        height: 432px;
+        
+    }
+    .green-second{
+        background-color: rgba(10, 91, 43, 0.8);
+        width: 372px;
+        height: 151px;
+        border-radius: 81px;
+        position: absolute;
+        top: 152px;
+        left: 24px;
+        text-align: center;
+        font-size: 12px;
+        color: white;
+    } 
+    .green-second button {
+        width: 128px;
+        height: 36px;
+        font-size: 17px;
+        position: absolute;
+        top: 94px;
+        left: 129px;
+        background-color: transparent;
+    }
+
+
+}
+@media (max-width:396px){
+    .green-second{
+        background-color: rgba(10, 91, 43, 0.8);
+        width: 335px;
+        height: 151px;
+        border-radius: 81px;
+        position: absolute;
+        top: 152px;
+        left: 24px;
+        text-align: center;
+        font-size: 12px;
+        color: white;
+    } 
+    .green-second button {
+        width: 128px;
+        height: 36px;
+        font-size: 17px;
+        position: absolute;
+        top: 94px;
+        left: 102px;
+        background-color: transparent;
+    }
+
+
+}
+@media (max-width:375px){
+    .pic3{
+        background-image: url(image/third.webp);
+        background-size: cover;
+        background-position: center;
+        height: 430px;
+
+    }
+
+}
+@media (max-width:360px){
+    .green-second{
+        background-color: rgba(10, 91, 43, 0.8);
+        width: 295px;
+        height: 148px;
+        border-radius: 81px;
+        position: absolute;
+        top: 152px;
+        left: 27px;
+        text-align: center;
+        font-size: 10px;
+    } 
+    .green-second button {
+        width: 128px;
+        height: 36px;
+        font-size: 17px;
+        position: absolute;
+        top: 94px;
+        left: 88px;
+        background-color: transparent;
+    }
+
+
+}
+
+
+
+@media (max-width:320px){
+    .pic3{
+        background-image: url(image/third.webp);
+        background-size: cover;
+        background-position: center;
+        height: 432px;
+
+    }
+    .green-second{
+        background-color: rgba(10, 91, 43, 0.8);
+    width: 243px;
+    height: 190px;
+    border-radius: 81px;
+    position: absolute;
+    top: 165px;
+    left: 49px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    .green-second button{
+        width: 130px;
+        height: 30px;
+        font-size: 16px;
+        position: absolute;
+        left: 53px;
+        top: 153px;
+        background-color: transparent;
+    }
+    
+
+}
+.last{
+height: 150px;
+
+
+}
+/* footer a{
+   margin-right: 15px;
+   text-decoration: none;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: white;
+
+} */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+.footer a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 12px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
